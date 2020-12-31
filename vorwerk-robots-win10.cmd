@@ -1,7 +1,7 @@
 @echo off
 
 IF NOT EXIST C:\Windows\SysWOW64\curl.exe (
-  ECHO [92mSorry, this script works for Windows 10 only[0m
+  ECHO [92mSorry, this script works on Windows 10 only[0m
   PAUSE
   goto :exit
 )
@@ -12,8 +12,9 @@ SET secret=
 SET serial=
 
 ECHO [96mThis a script for obtaining your Vorwerk vacuum robots' serial and secret
+ECHO Please check the repository at: https://github.com/Pavion/vorwerk-robots
 ECHO This script is based on https://github.com/nicoh88/node-kobold/ 
-ECHO This is a part of openHab Vorwerk binding fork and is distributed "as is" with no warranty[0m
+ECHO This is a part of openHAB Neato/Vorwerk binding fork and is distributed "as is" with no warranty[0m
 ECHO. 
 
 SET /p email="[92mPlease enter your Vorwerk email: [0m"
@@ -79,7 +80,7 @@ ECHO.
 ECHO If you have more then one robot, please check the output file vorwerk_robots.txt for other serials
 
 ECHO.
-ECHO [96mThank you for using this script. Press any key to exit, your codes will be then open in your editor.[0m
+ECHO [96mThank you for using this script. Press any key to exit, your codes will be then opened in your editor.[0m
 ECHO.
 
 PAUSE > NUL
