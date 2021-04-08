@@ -79,7 +79,7 @@ echo [93mYour secret:[0m
 echo [92m$secret[0m
 
 echo
-echo If you have more then one robot, please check the output file vorwerk_robots.txt for other serials
+echo If you have more than one robot, please check the output file vorwerk_robots.txt for other serials
 
 echo
 echo [96mThank you for using this script, your codes are saved as text files[0m
